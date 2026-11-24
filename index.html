@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>سایت مدرن من</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="container nav">
+      <div class="logo">وب مدرن</div>
+
+      <nav aria-label="منوی اصلی">
+        <ul>
+          <li><a href="#features">قابلیت‌ها</a></li>
+          <li><a href="#search">جست‌وجو</a></li>
+          <li><a href="#install">نصب</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <span class="badge">HTML + CSS + JavaScript</span>
+
+        <h1>یک وب‌سایت مدرن بسازید</h1>
+
+        <p>
+          این سایت با HTML، CSS و JavaScript خالص ساخته شده است.
+          طراحی واکنش‌گرا، انیمیشن تعاملی و جست‌وجوی محلی دارد.
+        </p>
+
+        <button class="btn" id="startBtn">شروع کنید</button>
+        <button class="btn secondary" id="themeBtn">تغییر تم</button>
+      </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <div class="section-title">
+          <h2>قابلیت‌های سایت</h2>
+          <p>سریع، واکنش‌گرا و قابل استفاده روی موبایل و دسکتاپ</p>
+        </div>
+
+        <div class="cards">
+          <article class="card">
+            <div class="icon">⚡</div>
+            <h3>سرعت و سادگی</h3>
+            <p>بدون کتابخانه اضافه و فقط با استانداردهای وب.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon">📱</div>
+            <h3>واکنش‌گرا</h3>
+            <p>نمایش مناسب روی موبایل، تبلت و دسکتاپ.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon">🎨</div>
+            <h3>انیمیشن تعاملی</h3>
+            <p>کارت‌ها با حرکت اشاره‌گر واکنش نشان می‌دهند.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon">🔒</div>
+            <h3>دسترس‌پذیر</h3>
+            <p>پشتیبانی از کیبورد، برچسب‌ها و کاهش حرکت.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="search">
+      <div class="container">
+        <div class="section-title">
+          <h2>جست‌وجوی محلی</h2>
+          <p>جست‌وجو بدون نیاز به اینترنت یا سرور انجام می‌شود</p>
+        </div>
+
+        <div class="search">
+          <form id="searchForm">
+            <label for="query">عبارت مورد نظر را وارد کنید</label>
+
+            <div class="search-row">
+              <input
+                id="query"
+                type="search"
+                placeholder="مثلاً: سرعت، موبایل، امنیت"
+              >
+
+              <button class="btn" type="submit">جست‌وجو</button>
+            </div>
+          </form>
+
+          <div class="result" id="result" aria-live="polite">
+            نتیجه جست‌وجو اینجا نمایش داده می‌شود.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="install">
+      <div class="container">
+        <div class="install-box">
+          <h2>نصب سایت</h2>
+          <p>
+            اگر مرورگر شما پشتیبانی کند، می‌توانید این صفحه را
+            به‌عنوان وب‌اپلیکیشن نصب کنید.
+          </p>
+
+          <button class="btn" id="installBtn">نصب برنامه</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      ساخته‌شده با HTML، CSS و JavaScript خالص — بدون فریم‌ورک
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
